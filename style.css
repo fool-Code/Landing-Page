@@ -2,6 +2,9 @@
 
 :root{
     --background-hero-footer: #1F2937;
+    --txt-colour-main-header: #F9FAF8;
+    --hero-sec-quote-colour: #E5E7EB;
+    --button-colour: #3882F6;
 }
 body{
     height: 100vh;
@@ -16,7 +19,6 @@ body{
     width: 100%;
     padding: 10px;
     background-color: var(--background-hero-footer);
-    display: block; 
 }
 
 .header{
@@ -28,13 +30,44 @@ body{
     padding-right: 15%;
 }
 
+.logo {
+    font-size: 24px;
+    color: var(--txt-colour-main-header);
+}
 .header-links {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    gap: 15px;
 }
 
-a{
+.header-links > li > a {
     text-decoration: none;
     font-size: 18px;
+    color: var(--hero-sec-quote-colour);
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: var(--hero-sec-quote-colour);
+    font-size: 18px;
+}
+
+.main-bold {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: var(--button-colour);
+    padding: 6px 20px;
+    font-size: 15px;
+    color: var(--hero-sec-quote-colour);
+    font-weight: bold;
+  }

@@ -5,6 +5,7 @@
     --txt-colour-main-header: #F9FAF8;
     --hero-sec-quote-colour: #E5E7EB;
     --button-colour: #3882F6;
+    --box-background: #6d747d;
 }
 body{
     height: 100vh;
@@ -32,6 +33,7 @@ body{
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: var(--txt-colour-main-header);
 }
 .header-links {
@@ -49,12 +51,12 @@ body{
 
 .main {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding-left: 15%;
     padding-right: 15%;
     color: var(--hero-sec-quote-colour);
     font-size: 18px;
+    padding-top: 10%;
+    gap: 3%;
 }
 
 .main-bold {
@@ -70,4 +72,34 @@ button {
     font-size: 15px;
     color: var(--hero-sec-quote-colour);
     font-weight: bold;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100%;
+    height: 220px;
+    background-color: var(--box-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main > .content > p {
+    margin: 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.button-main {
+    padding-top: 10px;
+}
+
+.box > a {
+    text-decoration: none;
+    color: var(--hero-sec-quote-colour);
+}

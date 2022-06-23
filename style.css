@@ -190,9 +190,5 @@ button {
 }
 
 .action-button {
-    padding: 6px 20px;
-    font-size: 15px;
-    border-radius: 8px;
-    font-weight: bold; 
     border: 2px solid var(--hero-sec-quote-colour);
 }

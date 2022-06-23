@@ -106,6 +106,8 @@ button {
 
 #info-container {
     text-align: center;
+    padding-left: 50%;
+    padding-right: 50%;
 }
 .info-header {
     font-weight: bolder;

@@ -9,3 +9,4 @@ The font that’s being used in the images is roboto.
 
 ![fonts and colours](fonts_and_colours.png)
 
+You can find this project foundation with the instructions <a href="https://www.theodinproject.com/lessons/foundations-landing-page">here</a>. 

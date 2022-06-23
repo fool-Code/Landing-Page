@@ -179,6 +179,20 @@ button {
     height: 100px;
 }
 
-.action {
+.action , .action-bold {
     margin: 0px;
+    color: var(--hero-sec-quote-colour);
+    font-size: 18px;
+}
+
+.action-bold {
+    font-weight: bold;
+}
+
+.action-button {
+    padding: 6px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: bold; 
+    border: 2px solid var(--hero-sec-quote-colour);
 }

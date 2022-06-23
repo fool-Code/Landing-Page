@@ -144,11 +144,22 @@ button {
 }
 
 .quote-box {
-    font-size: 36px;
-    color: var(--background-hero-footer);
-    font-style: italic;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.quote-box > .quote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0px;
+    color: var(--background-hero-footer);    
+}
+
+.quote-box > .who-quoted {
+    font: 18px;
+    font-weight: bold;
+    padding-right: 3%;
+    align-self: flex-end;
+    color: var(--background-hero-footer);
+}

@@ -103,3 +103,34 @@ button {
     text-decoration: none;
     color: var(--hero-sec-quote-colour);
 }
+
+#info-container {
+    text-align: center;
+}
+.info-header {
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: var(--background-hero-footer);
+}
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card > .info-box {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid var(--button-colour);
+    border-radius: 10px;
+}

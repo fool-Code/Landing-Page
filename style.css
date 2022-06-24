@@ -50,11 +50,9 @@ body{
 
 .main {
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 5% 15%;
     color: var(--hero-sec-quote-colour);
     font-size: 18px;
-    padding-top: 10%;
     gap: 3%;
 }
 

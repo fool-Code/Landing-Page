@@ -115,7 +115,7 @@ button {
 .info-content {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 15px;
 }
 
 .card {

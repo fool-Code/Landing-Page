@@ -152,7 +152,7 @@ button {
 }
 
 .quote-box > .who-quoted {
-    font: 18px;
+    font-size: 18px;
     font-weight: bold;
     padding-right: 3%;
     align-self: flex-end;
